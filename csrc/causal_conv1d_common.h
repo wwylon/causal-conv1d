@@ -3,6 +3,8 @@
  ******************************************************************************/
 
 #pragma once
+#include <algorithm>
+#include <initializer_list>
 
 #ifndef USE_ROCM
     #include <cuda_bf16.h>
